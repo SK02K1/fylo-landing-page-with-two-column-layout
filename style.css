@@ -12,6 +12,9 @@
 
     --primary-font : 'Open Sans', sans-serif;
     --secondary-font : 'Raleway', sans-serif;
+    
+    --padding-hv : 2rem 1.5rem;
+
 }
 
 * {
@@ -26,4 +29,39 @@ body {
 
 h1, h2, h3 {
     font-family: var(--secondary-font);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-hv);
+    font-family: var(--secondary-font);
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links-container li a {
+    margin-left: 1rem;
+    color: var(--very-dark-blue);
 }
