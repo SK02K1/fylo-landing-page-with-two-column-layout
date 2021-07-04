@@ -200,3 +200,23 @@ header {
 .avatar-name {
     font-weight: 700;
 }
+
+.get-early-access-today {
+    min-height: 50vh;
+    background: var(--desaturated-blue);
+    color: var(--light-grayish-blue);
+    text-align: center;
+    padding: var(--padding-hv);
+}
+
+.get-early-access-today h2 {
+    margin: var(--margin-h-2);
+}
+
+.get-early-access-today p {
+    margin: var(--margin-h-1);
+}
+
+.get-early-access-today form input, .btn-get-early-access-today{
+    width: 80%;
+}
