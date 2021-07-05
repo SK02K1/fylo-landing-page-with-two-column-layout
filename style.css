@@ -282,3 +282,7 @@ footer>img {
     border-radius: 50%;
     padding: .5rem;
 }
+
+.social-links li a .fa-facebook-f {
+    padding: .5rem .7rem;
+}
